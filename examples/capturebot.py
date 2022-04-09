@@ -7,8 +7,8 @@ class CaptureBot(SnapchatBot):
 
 if __name__ == '__main__':
     parser = ArgumentParser("Capture Bot")
-    parser.add_argument('-u', '--username', required=True, type=str, help="Username of the account to run the bot on")
-    parser.add_argument('-p', '--password', required=True, type=str, help="Password of the account to run the bot on")
+    parser.add_argument('-u', 'capturebot81723871', required=True, type=str, help="Username of the account to run the bot on")
+    parser.add_argument('-p', '1qa2ws3ed', required=True, type=str, help="Password of the account to run the bot on")
 
     args = parser.parse_args()
 
